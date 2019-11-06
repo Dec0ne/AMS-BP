@@ -8,11 +8,11 @@ This DLL is based on [CyberArk Post](https://www.cyberark.com/threat-research-bl
 ## Usage:
 __Using the DLL__
 ```powershell
-	PS C:\> [Reflection.Assembly]::Load([IO.File]::ReadAllBytes("$pwd\\Source.dll"))
-	PS C:\> [BP.AMS]::Disable()
+PS C:\> [Reflection.Assembly]::Load([IO.File]::ReadAllBytes("$pwd\\Source.dll"))
+PS C:\> [BP.AMS]::Disable()
 ```
 __Using the .ps1 script__
 ```powershell
-	PS C:\> Import-Module .\AMSBP.ps1
-	PS C:\> AMSBP
+PS C:\> Import-Module .\AMSBP.ps1
+PS C:\> AMSBP
 ```
