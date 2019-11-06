@@ -3,7 +3,7 @@ AMSI Bypass for powershell
 # AMS-BP
 Bypass Powershell AMSI using a simple script.
 This Script is comprised of a DLL (source file included) which when loaded and executed will disable AmsiScanString.
-This DLL is based on [CyberArk Post](https://www.cyberark.com/threat-research-blog/amsi-bypass-redux/) with some minor changes to defeat Windows Defender and AMSI itself which is now recognizes the strings inside the DLL when it is loaded.
+This DLL is based on [CyberArk Post](https://www.cyberark.com/threat-research-blog/amsi-bypass-redux/) with some minor changes to defeat Windows Defender and AMSI itself which now recognizes the strings inside the DLL when it is loaded.
 
 ## Usage:
 __Using the DLL__
